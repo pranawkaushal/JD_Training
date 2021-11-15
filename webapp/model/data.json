@@ -1,0 +1,39 @@
+{
+	"salesDetails": [{
+		"SalesOrderID": "0500000000",
+		"Note": "EPM DG: SO ID 0500000000 Deliver as fast as possible",
+		"CustomerID": "0100000000",
+		"CustomerName": "SAP",
+		"CurrencyCode": "USD",
+		"GrossAmount": "14385.85",
+		"NetAmount": "12088.95",
+		"TaxAmount": "2296.90"
+	}, {
+		"SalesOrderID": "0500000001",
+		"Note": "EPM DG: SO ID 0500000001 Deliver as fast as possible",
+		"CustomerID": "0100000002",
+		"CustomerName": "DelBont Industries",
+		"CurrencyCode": "USD",
+		"GrossAmount": "15117.76",
+		"NetAmount": "12704.00",
+		"TaxAmount": "2413.76"
+	}, {
+		"SalesOrderID": "0500000002",
+		"Note": "EPM DG: SO ID 0500000002 Deliver as fast as possible",
+		"CustomerID": "0100000005",
+		"CustomerName": "TECUM",
+		"CurrencyCode": "USD",
+		"GrossAmount": "5631.08",
+		"NetAmount": "4732.00",
+		"TaxAmount": "899.08"
+	}, {
+		"SalesOrderID": "0500000003",
+		"Note": "EPM DG: SO ID 0500000003 Deliver as fast as possible",
+		"CustomerID": "0100000006",
+		"CustomerName": "Asia High tech",
+		"CurrencyCode": "USD",
+		"GrossAmount": "1704.04",
+		"NetAmount": "1431.97",
+		"TaxAmount": "272.07"
+	}]
+}

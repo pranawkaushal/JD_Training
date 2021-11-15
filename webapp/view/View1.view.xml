@@ -9,12 +9,71 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-                        <List id="productList" items="{ path:'/Employees' }">
+                        <!-- <List id="productList" items="{ path:'localModel>/Employees' }">
 							<items>
-								<ObjectListItem title="{FirstName}"
+								<ObjectListItem title="{localModel>FirstName}"
 									type="Navigation" press="onListItemPress"></ObjectListItem>
 							</items>
-						</List>
+						</List> -->
+                        <Table noDataText="Drop column list items here and columns in the area above" id="__table0" items="{/salesDetails}"
+							alternateRowColors="true">
+							<items>
+								<ColumnListItem id="__item0">
+									<cells>
+										<Text text="{SalesOrderID}" id="__text3"/>
+										<Text text="{Note}" id="__text4"/>
+										<Text text="{CustomerID}" id="__text5"/>
+										<Text text="{CustomerName}" id="__text6"/>
+										<Text text="{CurrencyCode}" id="__text7"/>
+										<Text text="{GrossAmount}" id="__text8"/>
+										<Text text="{NetAmount}" id="__text9"/>
+										<Text text="{TaxAmount}" id="__text10"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+							<columns>
+								<Column id="__column0" width="9%" minScreenWidth="Phone" demandPopin="true">
+									<header>
+										<Label text="SalesOrderID" id="__label0"/>
+									</header>
+								</Column>
+								<Column id="__column1" width="15%" minScreenWidth="Phone" demandPopin="true">
+									<header>
+										<Label text="Note" id="__label1" />
+									</header>
+								</Column>
+								<Column id="__column2" width="9%" minScreenWidth="Phone" demandPopin="true">
+									<header>
+										<Label text="CustomerID" id="__label2"/>
+									</header>
+								</Column>
+								<Column id="__column3" minScreenWidth="Phone" demandPopin="true">
+									<header>
+										<Label text="CustomerName" id="__label3"/>
+									</header>
+								</Column>
+								<Column id="__column4" minScreenWidth="Phone" demandPopin="true">
+									<header>
+										<Label text="CurrencyCode" id="__label4"/>
+									</header>
+								</Column>
+								<Column id="__column5" minScreenWidth="Phone" demandPopin="true">
+									<header>
+										<Label text="GrossAmount" id="__label5"/>
+									</header>
+								</Column>
+								<Column id="__column6" minScreenWidth="Phone" demandPopin="true">
+									<header>
+										<Label text="NetAmount" id="__label6"/>
+									</header>
+								</Column>
+								<Column id="__column7" minScreenWidth="Phone" demandPopin="true">
+									<header>
+										<Label text="TaxAmount" id="__label7"/>
+									</header>
+								</Column>
+							</columns>
+						</Table>
                     </content>
 				</Page>
 			</pages>

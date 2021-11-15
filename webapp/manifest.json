@@ -67,10 +67,10 @@
           "bundleName": "com.yash.demojd3northwind.i18n.i18n"
         }
       },
-			"": {
+			"localModel": {
 				"dataSource": "mainService",
 				"preload": true
-			}
+            }
     },
     "resources": {
       "css": [
