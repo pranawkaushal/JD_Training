@@ -9,7 +9,6 @@ sap.ui.define([
 
 		return Controller.extend("com.yash.demojd3northwind.controller.View1", {
 			onInit: function () {
-
                 var oModel = new sap.ui.model.json.JSONModel();
                 oModel.loadData("model/data.json");
                 var otable = this.getView().byId("__table0");
